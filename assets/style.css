@@ -137,8 +137,8 @@ a.tag:hover { border-color: var(--faint); background: var(--accent-soft); }
 .post-cover img { width: 100%; border-radius: 4px; }
 
 .post-body { font-family: var(--serif); font-size: 1.25rem; line-height: 1.75; letter-spacing: -0.003em; word-wrap: break-word; }
-.post-body > * + * { margin-top: 1.6em; }
-.post-body p { margin: 0; }
+.post-body > * { margin-top: 0; margin-bottom: 0; }
+.post-body > * + * { margin-top: 1.5em; }
 .post-body > p:first-child::first-letter {
   float: left; font-size: 4.2em; line-height: 0.85; font-weight: 700; padding: 6px 10px 0 0;
 }
