@@ -105,6 +105,8 @@ a.tag:hover { border-color: var(--faint); background: var(--accent-soft); }
 
 /* ---------- Sidebar ---------- */
 .sidebar { position: sticky; top: 92px; align-self: start; border-left: 1px solid var(--faint); padding-left: 32px; }
+.side-photo { margin: 0 0 28px; }
+.side-photo img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 6px; }
 .side-block { margin-bottom: 36px; }
 .side-title { font-size: 0.95rem; font-weight: 600; margin: 0 0 12px; }
 .side-block p { color: var(--muted); font-size: 0.93rem; margin: 0 0 10px; }
