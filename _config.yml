@@ -1,0 +1,30 @@
+title: Fool on the Hill
+tagline: Stories, lessons, and small observations from a life in progress.
+description: A personal blog of life experiences, reflections, and things worth remembering.
+author:
+  name: Fool on the Hill
+  bio: Writing down the moments, mistakes, and lessons worth keeping.
+
+url: "https://foolonthehill16.github.io"
+baseurl: "/mywebsite"
+
+permalink: /:year/:month/:title/
+timezone: America/Los_Angeles
+markdown: kramdown
+excerpt_separator: "<!--more-->"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
